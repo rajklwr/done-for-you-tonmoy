@@ -24,3 +24,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes horizontal-loop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-horizontal-loop {
+  display: flex;
+  animation: horizontal-loop 20s linear infinite; /* Adjust duration as needed */
+  width: calc(200%); /* Required to support smooth looping */
+}
+
+
+
+
