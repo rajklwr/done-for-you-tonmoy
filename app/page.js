@@ -5,7 +5,7 @@ import LandingScreen from "@/components/LandingScreen";
 import YouTubeChannels from "@/components/YouTubeChannels";
 import Services from '@/components/Services';
 import WhatWeHaveDone from '@/components/WhatWeHaveDone';
-import YouTubeSection from '@/components/YoutubeSection';
+import YouTubeSection from '@/components/YouTubeSection';
 import CaseStudies from '@/components/CaseStudies';
 import BookYourCall from "@/components/BookYourCall";
 import FAQ from "@/components/FAQ";
