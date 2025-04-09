@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import LandingScreen from "@/components/LandingScreen";
 import GrowChannel from "@/components/GrowChannel";
 import MonetizationSection from "@/components/MonetizationSection";
+import Sale from "@/components/Sale";
 // import Services from "@/components/Services";
 // import WhatWeHaveDone from "@/components/WhatWeHaveDone";
 // import YouTubeSection from "@/components/YouTubeSection";
@@ -32,8 +33,9 @@ export default function Home() {
       }}
     >
       <LandingScreen />
-       <GrowChannel />
-       <MonetizationSection />
+      <GrowChannel />
+      <MonetizationSection />
+      <Sale />
       {/*<Services />
       <WhatWeHaveDone />
       <YouTubeSection />
