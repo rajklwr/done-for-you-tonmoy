@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-const LandingScreen = () => {
+const LandingScreen = ({scrollToBookYourCall}) => {
   return (
     <div className="min-h-screen mt-4 w-full flex flex-col-reverse lg:flex-row items-center justify-between px-4 sm:px-8 md:px-16 lg:px-20 text-white">
       {/* Left Section: Mobile Image */}
@@ -31,7 +31,7 @@ const LandingScreen = () => {
         <br></br>
         <div className="flex justify-center lg:justify-start">
           <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-sm md:text-base lg:text-lg shadow-md transition-all duration-200 ease-in-out"
-          onClick={() => null}
+          onClick={scrollToBookYourCall}
           >
             Book Your Call
           </button>

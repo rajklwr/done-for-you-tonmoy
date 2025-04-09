@@ -17,9 +17,10 @@ export default function Home() {
   const bookCallRef = useRef(null);
 
   const scrollToBookYourCall = () => {
-    if (bookCallRef.current) {
-      bookCallRef.current.scrollIntoView({ behavior: "smooth" });
-    }
+    // if (bookCallRef.current) {
+    //   bookCallRef.current.scrollIntoView({ behavior: "smooth" });
+    // }
+    null
   };
   return (
     <main
@@ -32,7 +33,7 @@ export default function Home() {
         padding: 10,
       }}
     >
-      <LandingScreen />
+      <LandingScreen scrollToBookYourCall={scrollToBookYourCall} />
       <GrowChannel />
       <MonetizationSection />
       <Sale />

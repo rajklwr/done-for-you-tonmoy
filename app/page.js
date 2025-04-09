@@ -30,14 +30,16 @@ export default function Home() {
         padding: 10,
       }}
     >
-      <LandingScreen />
+      <LandingScreen scrollToBookYourCall={scrollToBookYourCall} />
       <YouTubeChannels />
       <Services />
       <WhatWeHaveDone />
       <YouTubeSection />
       <CaseStudies />
       <FAQ faqData={faqData} />
-      <BookYourCall />
+      <div ref={bookCallRef}>
+        <BookYourCall />
+      </div>
     </main>
   );
 }

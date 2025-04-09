@@ -10,7 +10,7 @@ const YouTubeChannels = () => {
         
         {/* Left Section: Text Content */}
         <div
-          className="flex-1 p-4 sm:p-6 lg:p-8  rounded-2xl shadow-2xl border-2 border-white flex-grow relative"
+          className="flex-1 p-4 sm:p-6 lg:p-8 text-center sm:text-left  rounded-2xl shadow-2xl border-2 border-white flex-grow relative"
           style={{ transform: 'translateY(20px)', opacity: 0, transition: 'all 0.8s ease-in-out', animation: 'moveInUp 1s forwards' }}
         >
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
