@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
+import UnderlineHeader from './UnderlineHeader';
 
 const WhatWeHaveDone = () => {
   const router = useRouter();
@@ -12,15 +13,14 @@ const WhatWeHaveDone = () => {
 
   return (
     <div
-      className=" bg-gradient-to-b from-black to-blue-900 py-12 flex flex-col items-center bg-cover bg-center px-4 sm:px-6 lg:px-8"
-      style={{ backgroundImage: 'url("/images/bg4.png")' }}
+      className=" py-12 flex flex-col items-center bg-cover bg-center px-4 sm:px-6 lg:px-8"
     >
       {/* Header Section */}
-      <div className="w-full max-w-6xl mb-8">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight text-left">
+      <div className="w-full flex flex-col items-center max-w-6xl mb-8">
+        {/* <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight text-left">
           WHAT WE HAVE <br /> DONE TILL NOW?
-        </h1>
-        <div className="flex items-center justify-start -mt-[10px]">
+        </h1> */}
+        {/* <div className="flex items-center justify-start -mt-[10px]">
           <div
             className="h-1"
             style={{
@@ -36,8 +36,9 @@ const WhatWeHaveDone = () => {
               width: '150px',
             }}
           ></div>
-        </div>
+        </div> */}
       </div>
+      <UnderlineHeader title={"WHAT WE HAVE DONE TILL NOW?"} />
 
       {/* Button Section */}
       <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-6">

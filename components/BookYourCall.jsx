@@ -10,8 +10,7 @@ const BookYourCall = () => {
 
   return (
     <div
-      className="bg-gradient-to-b from-black to-blue-900 py-12 flex justify-center items-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/bg6.png')" }}
+      className=" py-12 flex justify-center items-center bg-cover bg-center"
     >
       {/* Main Container */}
       <div className="w-full max-w-6xl flex flex-col lg:flex-row justify-between lg:items-center space-y-12 lg:space-y-0 lg:space-x-16 p-4">
@@ -28,7 +27,7 @@ const BookYourCall = () => {
           <div
             ref={calendlyRef}
             tabIndex="-1" // Make it focusable
-            className="calendly-inline-widget -mt-16 "
+            className="calendly-inline-widget sm:-mt-16 "
             data-url="https://calendly.com/ytautomationtonmoy/1-1-on-strategy-call-with-tonmoy-clone"
             style={{
               minWidth: "350px",

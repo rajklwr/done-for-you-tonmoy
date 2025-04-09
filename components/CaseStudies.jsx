@@ -10,19 +10,19 @@ const CaseStudies = () => {
   const scrollingImagesLandscape = [...caseStudyImagesLandscape, ...caseStudyImagesLandscape];
 
   return (
-    <section className="text-white py-16 px-6">
-      <div className="text-center mb-12">
+    <section className="text-white py-4 sm:py-16 sm:px-6">
+      <div className="text-center sm:mb-12">
         {/* Section Title */}
         <UnderlineHeader title={"CASE STUDIES"} />
       </div>
 
       {/* Horizontal Scrolling Container */}
-      <div className="overflow-hidden">
+      <div className="overflow-hidden  ">
         <div className="flex animate-horizontal-loop py-4 space-x-6">
           {scrollingImages.map((image, index) => (
             <div
               key={index}
-              className="min-w-[200px] group relative rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"
+              className=" min-w-[60px] sm:min-w-[200px] group relative rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"
             >
               {/* Image */}
               <img
@@ -34,12 +34,12 @@ const CaseStudies = () => {
           ))}
         </div>
       </div>
-      <div className="overflow-hidden mt-16">
+      <div className="overflow-hidden mt-4 sm:mt-16">
         <div className="flex animate-horizontal-loop py-4 space-x-6">
           {scrollingImagesLandscape.map((image, index) => (
             <div
               key={index}
-              className=" min-w-[400px] group relative rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"
+              className=" min-w-[200px] sm:min-w-[400px] group relative rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"
             >
               {/* Image */}
               <img

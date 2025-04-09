@@ -29,7 +29,7 @@ const Services = () => {
 
   return (
     <div className="py-12">
-      <UnderlineHeader title="Services" />
+      <UnderlineHeader title="SERVICES" />
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
         {servicesData.map((service, index) => (
           <ServiceCard
