@@ -2,7 +2,8 @@
 
 import React, { useRef } from "react";
 import LandingScreen from "@/components/LandingScreen";
-import YouTubeChannels from "@/components/YouTubeChannels";
+import GrowChannel from "@/components/GrowChannel";
+import MonetizationSection from "@/components/MonetizationSection";
 // import Services from "@/components/Services";
 // import WhatWeHaveDone from "@/components/WhatWeHaveDone";
 // import YouTubeSection from "@/components/YouTubeSection";
@@ -31,7 +32,8 @@ export default function Home() {
       }}
     >
       <LandingScreen />
-       <YouTubeChannels />
+       <GrowChannel />
+       <MonetizationSection />
       {/*<Services />
       <WhatWeHaveDone />
       <YouTubeSection />
