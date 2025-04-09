@@ -3,6 +3,7 @@
 
 import React, { useState } from "react";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
+import UnderlineHeader from "./UnderlineHeader";
 
 const FAQItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,53 +35,12 @@ const FAQItem = ({ question, answer }) => {
   );
 };
 
-const FAQ = ({faqData}) => {
-
+const FAQ = ({ faqData }) => {
   return (
     <div
-      className=" bg-gradient-to-b from-black to-blue-900 py-8 sm:py-12 flex flex-col items-center bg-cover bg-center px-4 sm:px-6 lg:px-8"
-      style={{ backgroundImage: 'url("/images/bg5.png")' }}
+      className=" py-8 sm:py-12 flex flex-col items-center bg-cover bg-center px-4 sm:px-6 lg:px-8"
     >
-      {/* Title */}
-      <div className="w-full max-w-6xl mb-8 text-left">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-          FREQUENTLY ASKED <br /> QUESTIONS
-        </h1>
-        <div className="flex items-center justify-start -mt-[10px]">
-          {/* First part of the underline */}
-          <div
-            className="h-1"
-            style={{
-              background:
-                "linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1))",
-              width: "150px", // Small width for mobile
-            }}
-          ></div>
-          {/* Dot in the center */}
-          <div className="text-white mx-2">•</div>
-          {/* Second part of the underline */}
-          <div
-            className="h-1"
-            style={{
-              background:
-                "linear-gradient(to left, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1))",
-              width: "150px", // Small width for mobile
-            }}
-          ></div>
-
-          {/* Adjust the widths for larger screens using Tailwind classes */}
-          <style jsx>{`
-            @media (min-width: 768px) {
-              div:first-child {
-                width: 300px !important; /* Original width for larger screens */
-              }
-              div:last-child {
-                width: 300px !important; /* Original width for larger screens */
-              }
-            }
-          `}</style>
-        </div>
-      </div>
+      <UnderlineHeader title="FREQUENTLY ASKED QUESTIONS" />
 
       {/* FAQ Items */}
       <div className="w-full max-w-5xl text-left space-y-4">
