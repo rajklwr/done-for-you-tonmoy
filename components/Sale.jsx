@@ -31,7 +31,7 @@ const Sale = () => {
   ];
 
   return (
-    <div className="py-12 flex flex-col items-center">
+    <div className="py-12 flex flex-col items-center p-2">
       <div
         className="flex-1 w-full lg:w-[80%] mb-8 p-4 sm:p-6 lg:p-8 text-center rounded-2xl shadow-2xl border-2 border-gray-400 flex-grow relative"
         style={{
@@ -41,10 +41,10 @@ const Sale = () => {
           animation: "moveInUp 1s forwards",
         }}
       >
-        <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight">
           ONLY PAY FOR THE VIDEOS WE CREATE
         </h1>
-        <p className="mb-4 text-md sm:text-base md:text-lg leading-relaxed">
+        <p className="mb-4 text-base sm:text-base md:text-lg leading-relaxed">
           Perfect for beginners who want their first channel fully built and
           monetized. We start your YouTube journey from scratch and take it all
           the way to monetization--
@@ -73,7 +73,7 @@ const Sale = () => {
           />
         ))}
       </div>
-      <div className=" mt-8 w-full sm:text-2xl sm:px-16 ">
+      <div className=" mt-12 w-full sm:text-2xl sm:px-16 ">
         <li className="flex items-start text-left mb-2 gap-3">
           <img
             src="/images/icon-checked.png"

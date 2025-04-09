@@ -36,12 +36,6 @@ export default function Home() {
       <GrowChannel />
       <MonetizationSection />
       <Sale />
-      {/*<Services />
-      <WhatWeHaveDone />
-      <YouTubeSection />
-      <CaseStudies />
-      <FAQ faqData={faqData} />
-      <BookYourCall /> */}
     </main>
   );
 }

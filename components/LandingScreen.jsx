@@ -18,11 +18,11 @@ const LandingScreen = () => {
 
       {/* Right Section: Content */}
       <div className="flex-1.1 space-y-6 text-center lg:text-left lg:pl-12 rounded-3xl shadow-lg relative border-2 border-gray-400 w-full lg:w-[110%] xl:w-[120%] transform lg:translate-x-[5%] xl:translate-x-[10%] lg:border-r-transparent p-6 sm:p-8 lg:p-10">
-        <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold leading-snug tracking-wide">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold leading-snug tracking-wide">
           SCALE YOUR YOUTUBE CHANNEL WITHOUT LIFTING A FINGER! - 100% DONE-FOR-YOU!
         </h2>
         <br></br>
-        <p className="text-md sm:text-base md:text-lg leading-relaxed tracking-wide">
+        <p className="text-base sm:text-base md:text-lg leading-relaxed tracking-wide">
           Turn your YouTube channel into a passive income machine with our Done-For-You automation service. We handle everything—from content creation to growth strategies— 📊
           <br></br>
           <br></br>

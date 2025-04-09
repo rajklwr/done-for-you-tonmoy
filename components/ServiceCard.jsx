@@ -15,7 +15,7 @@ const ServiceCard = ({ icon, title, description }) => {
         <img src={icon} alt={icon} className="w-24 h-24" />
 
         {/* Title */}
-        <h2 className="ml-6 text-2xl font-semibold">{title}</h2>
+        <h2 className="sm:ml-6 text-2xl font-semibold">{title}</h2>
       </div>
 
       {/* Description */}
