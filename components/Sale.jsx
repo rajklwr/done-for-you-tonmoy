@@ -70,6 +70,7 @@ const Sale = () => {
             title={service.title}
             description={service.description}
             color={service.color}
+            pricing={service.pricing}
           />
         ))}
       </div>

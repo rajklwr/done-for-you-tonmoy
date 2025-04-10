@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ServiceCard = ({ icon, title, description }) => {
+const ServiceCard = ({ icon, title, description, pricing }) => {
   return (
     <div
       className="relative group bg-white bg-opacity-10 backdrop-blur-lg border border-gray-200 rounded-lg p-8 text-white shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 ease-in-out"
@@ -17,9 +17,13 @@ const ServiceCard = ({ icon, title, description }) => {
         {/* Title */}
         <h2 className="sm:ml-6 text-2xl font-semibold">{title}</h2>
       </div>
-
+      {
+        pricing &&
+        <p className="text-lg text-[#b2f7f2] leading-relaxed mt-4">{pricing}</p>
+      }
       {/* Description */}
       <p className="text-lg leading-relaxed mt-4">{description}</p>
+
 
       {/* Button */}
       <div className="flex justify-center mt-6">
