@@ -32,6 +32,11 @@ const Sale = () => {
 
   return (
     <div className="py-12 flex flex-col items-center p-2">
+      <div className=" flex mb-8 sm:mb-16 w-full items-center justify-center gap-8  py-4  bg-[#6abcff] " >
+      <img src="/images/warning-icon.png" alt="Warning Icon" className=" w-8 h-8 sm:w-32 sm:h-32" />
+      <h1 className=" text-2xl sm:text-5xl text-white font-bold " > BIGGEST SALE EVER</h1>
+      <img src="/images/warning-icon.png" alt="Warning Icon" className=" w-8 h-8 sm:w-32 sm:h-32" />
+      </div>
       <div
         className="flex-1 w-full lg:w-[80%] mb-8 p-4 sm:p-6 lg:p-8 text-center rounded-2xl shadow-2xl border-2 border-gray-400 flex-grow relative"
         style={{
