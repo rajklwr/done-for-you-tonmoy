@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const LandingScreen = ({scrollToBookYourCall}) => {
   return (
-    <div className="min-h-screen mt-4 w-full flex flex-col-reverse lg:flex-row items-center justify-between px-4 sm:px-8 md:px-16 lg:px-20 text-white">
+    <div className="min-h-screen mt-[70px] w-full flex flex-col-reverse lg:flex-row items-center justify-between px-4 sm:px-8 md:px-16 lg:px-20 text-white">
       {/* Left Section: Mobile Image */}
       <div className="flex-0.9 flex justify-center mt-8 lg:mt-0">
         <Image

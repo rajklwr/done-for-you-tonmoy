@@ -5,13 +5,7 @@ import LandingScreen from "@/components/LandingScreen";
 import GrowChannel from "@/components/GrowChannel";
 import MonetizationSection from "@/components/MonetizationSection";
 import Sale from "@/components/Sale";
-// import Services from "@/components/Services";
-// import WhatWeHaveDone from "@/components/WhatWeHaveDone";
-// import YouTubeSection from "@/components/YouTubeSection";
-// import CaseStudies from "@/components/CaseStudies";
-// import BookYourCall from "@/components/BookYourCall";
-// import FAQ from "@/components/FAQ";
-// import { faqData } from "@/data/faq-data";
+import Header from "@/components/Header";
 
 export default function Home() {
   const bookCallRef = useRef(null);
@@ -33,6 +27,7 @@ export default function Home() {
         padding: 10,
       }}
     >
+      <Header />
       <LandingScreen scrollToBookYourCall={scrollToBookYourCall} />
       <GrowChannel />
       <MonetizationSection />
