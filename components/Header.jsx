@@ -1,10 +1,10 @@
 "use client";
-import React, { useState } from 'react';
-import { AiOutlineMenu, AiOutlineClose, AiOutlineDown } from 'react-icons/ai';
-import Image from 'next/image';
-import Link from 'next/link';
+import React, { useState } from "react";
+import { AiOutlineMenu, AiOutlineClose, AiOutlineDown } from "react-icons/ai";
+import Image from "next/image";
+import Link from "next/link";
 
-const Header = () => {
+const Header = ({ scrollToBookYourCall }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
 
@@ -49,21 +49,24 @@ const Header = () => {
           } lg:block`}
         >
           <div className="flex flex-col lg:flex-row w-full px-4 lg:w-auto lg:space-x-16">
-            <Link
+            {/* <Link
               href="/"
               className="hover:text-gray-300 text-xl transition duration-300 ease-in-out py-2 lg:py-0"
             >
               Home
-            </Link>
-            <a
+            </Link> */}
+            {/* <a
               href="/pricing"
               className="hover:text-gray-300 text-xl transition duration-300 ease-in-out py-2 lg:py-0"
             >
               Pricing
-            </a>
+            </a> */}
 
             {/* Get Started Button */}
-            <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition duration-300 ease-in-out mt-4 lg:mt-0">
+            <button
+              className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition duration-300 ease-in-out mt-4 lg:mt-0"
+              onClick={scrollToBookYourCall}
+            >
               Get Started
             </button>
           </div>

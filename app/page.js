@@ -31,7 +31,7 @@ export default function Home() {
         padding: 10,
       }}
     >
-      <Header/>
+      <Header scrollToBookYourCall={scrollToBookYourCall} />
       <LandingScreen scrollToBookYourCall={scrollToBookYourCall} />
       <YouTubeChannels />
       <Services />

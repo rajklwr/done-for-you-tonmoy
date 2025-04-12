@@ -6,15 +6,15 @@ import GrowChannel from "@/components/GrowChannel";
 import MonetizationSection from "@/components/MonetizationSection";
 import Sale from "@/components/Sale";
 import Header from "@/components/Header";
+import BookYourCall from "@/components/BookYourCall";
 
 export default function Home() {
   const bookCallRef = useRef(null);
 
   const scrollToBookYourCall = () => {
-    // if (bookCallRef.current) {
-    //   bookCallRef.current.scrollIntoView({ behavior: "smooth" });
-    // }
-    null
+    if (bookCallRef.current) {
+      bookCallRef.current.scrollIntoView({ behavior: "smooth" });
+    }
   };
   return (
     <main
@@ -27,11 +27,14 @@ export default function Home() {
         padding: 10,
       }}
     >
-      <Header />
+      <Header scrollToBookYourCall={scrollToBookYourCall} />
       <LandingScreen scrollToBookYourCall={scrollToBookYourCall} />
       <GrowChannel />
       <MonetizationSection />
       <Sale />
+      <div ref={bookCallRef}>
+        <BookYourCall />
+      </div>
     </main>
   );
 }
