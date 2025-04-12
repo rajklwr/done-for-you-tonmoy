@@ -14,7 +14,7 @@ const MonetizationSection = () => {
             <img
               src="/images/revenue-phone.png"
               alt="Revenue Phone"
-              className="mt-6 sm:ml-0 -ml-8 rounded-lg shadow-md w-full sm:w-2/3 lg:w-full"
+              className="mt-6 sm:ml-0 -ml-8 rounded-lg shadow-md h-[500px] "
             />
           </div>
 
@@ -37,7 +37,7 @@ const MonetizationSection = () => {
               </li>
             </ul>
 
-            <div className="bg-[#6abcff] mt-8  text-left px-4 " >
+            <div className="bg-[#6abcff] mt-8 lg:mt-32  text-left px-4 " >
             <h3 className="text-2xl sm:text-3xl font-bold mb-6 leading-xl ">FREE BONUS-</h3>
                 </div>
             <ul className="text-lg space-y-4">
