@@ -4,7 +4,7 @@ import React from "react";
 const GrowChannel = () => {
   return (
     <div className=" flex flex-col mt-4 items-center justify-center p-4 sm:p-8">
-      <div className="max-w-7xl w-full flex flex-col  justify-between items-center px-4 py-8 lg:py-16 lg:px-10 text-white gap-16 lg:gap-16 xl:gap-32">
+      <div className="max-w-7xl  w-full flex flex-col  justify-between items-center px-4 py-8 lg:py-16 lg:px-10 text-white gap-16 lg:gap-16 xl:gap-32">
         <div
           className="flex-1 relative lg:flex-grow lg:max-w-[80%] xl:max-w-[80%]"
           style={{

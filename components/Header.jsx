@@ -18,7 +18,7 @@ const Header = ({ scrollToBookYourCall }) => {
   };
 
   return (
-    <header className="text-white py-4 bg-opacity-0.5 fixed top-0 left-0 w-full z-10 bg-gradient-to-r from-gray-900 via-black to-gray-900 transition-all ease-in-out">
+    <header className="text-white py-4 z-1000 bg-opacity-0.5 fixed top-0 left-0 w-full z-10 bg-gradient-to-r from-gray-900 via-black to-gray-900 transition-all ease-in-out">
       <div className="container mx-auto max-w-screen-xl px-6 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
