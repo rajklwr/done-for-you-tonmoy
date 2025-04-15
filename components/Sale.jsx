@@ -76,6 +76,7 @@ const Sale = ({scrollToBookYourCall}) => {
             description={service.description}
             color={service.color}
             pricing={service.pricing}
+            extralines={service.extralines}
           />
         ))}
       </div>

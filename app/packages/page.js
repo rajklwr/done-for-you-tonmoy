@@ -8,6 +8,10 @@ import BookYourCall from "@/components/BookYourCall";
 import PricingLanding from "@/components/PricingLanding";
 import CaseStudies from "@/components/CaseStudies";
 import Solution from "@/components/Solution";
+import GrowthPath from "@/components/GrowthPath";
+import FAQ from "@/components/FAQ";
+import { faqData } from "@/data/faq-data";
+import WhatWeHaveDone from "@/components/WhatWeHaveDone";
 
 export default function Home() {
   const bookCallRef = useRef(null);
@@ -33,7 +37,10 @@ export default function Home() {
       <CaseStudies />
       <MonetizationSection />
       <Solution />
-      <Sale scrollToBookYourCall={scrollToBookYourCall}  />
+      <GrowthPath />
+      <Sale scrollToBookYourCall={scrollToBookYourCall} />
+      <FAQ faqData={faqData} />
+      <WhatWeHaveDone />
       <div ref={bookCallRef}>
         <BookYourCall />
       </div>
