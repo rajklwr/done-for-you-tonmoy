@@ -1,4 +1,5 @@
 import ServiceCard from "./ServiceCard";
+import Heading from "./Heading";
 const GrowthPath = () => {
   const servicesData = [
     {
@@ -46,9 +47,12 @@ const GrowthPath = () => {
   return (
     <div className="min-h-screen w-full bg-[#121212] text-white px-2 sm:px-12 md:px-16 lg:px-20 sm:py-16">
       {/* Header */}
-      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold text-center sm:mb-12">
+      {/* <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold text-center sm:mb-12">
         3 WAYS TO WORK WITH US - CHOOSE YOUR GROWTH PATH
-      </h2>
+      </h2> */}
+      <Heading title="3 WAYS TO WORK WITH US - CHOOSE YOUR GROWTH PATH" />
+
+      {/* Content */}
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
         {servicesData.map((service, index) => (
           <ServiceCard

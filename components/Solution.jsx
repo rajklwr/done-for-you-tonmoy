@@ -1,20 +1,18 @@
+import Heading from "./Heading";
 const Solution = () => {
     return (
       <div className="min-h-screen w-full bg-[#121212] text-white px-2 sm:px-12 md:px-16 lg:px-20 sm:py-16">
-        {/* Header */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold text-center sm:mb-12">
-          WHY MOST CREATORS FAIL... AND OUR CLIENTS DON&apos;T
-        </h2>
+        <Heading title="WHY MOST CREATORS FAIL... AND OUR CLIENTS DON&apos;T" />
   
         {/* Content */}
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-0">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 sm:gap-0">
 
   
-          <div className="w-full lg:w-[400px] rounded-lg shadow-lg p-8 text-center transform hover:scale-105 transition-all duration-300">
+          <div className="w-full lg:w-[400px] flex items-center justify-center  rounded-lg shadow-lg sm:p-8 text-center transform hover:scale-105 transition-all duration-300">
             <img
               src="/images/tonmoy.png"
               alt="Revenue Phone"
-              className="mt-6 sm:ml-0 -ml-8 rounded-lg shadow-md h-[500px] "
+              className="mt-6  rounded-lg shadow-md h-[500px] "
             />
           </div>
 
@@ -59,6 +57,6 @@ const Solution = () => {
       </div>
     );
   };
-  
+ 
   export default Solution;
   

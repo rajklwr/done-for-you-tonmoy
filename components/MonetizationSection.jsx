@@ -1,16 +1,14 @@
+import Heading from "./Heading";
 const MonetizationSection = () => {
     return (
       <div className="min-h-screen w-full bg-[#121212] text-white px-2 sm:px-12 md:px-16 lg:px-20 sm:py-16">
-        {/* Header */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold text-center sm:mb-12">
-          OVER 150+ CHANNELS MONETIZED. $10 MILLION+ REVENUE GENERATED FOR CLIENTS 💰
-        </h2>
+        <Heading title="OVER 150+ CHANNELS MONETIZED. $10 MILLION+ REVENUE GENERATED FOR CLIENTS 💰" />
   
         {/* Content */}
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-0">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 sm:gap-0">
 
   
-          <div className="w-full lg:w-[400px] rounded-lg shadow-lg p-8 text-center transform hover:scale-105 transition-all duration-300">
+          <div className="w-full lg:w-[400px] rounded-lg shadow-lg sm:p-8 text-center transform hover:scale-105 transition-all duration-300">
             <img
               src="/images/revenue-phone.png"
               alt="Revenue Phone"
