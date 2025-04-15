@@ -23,7 +23,7 @@ const Sale = ({scrollToBookYourCall}) => {
     {
       icon: "images/button-c.png",
       title: "Premium",
-      pricing: "8-10 minutes = $100/video",
+      pricing: "8-10 minutes = $120/video",
       description:
         "Super premium videos with super engaging scripts, human voice & videos loaded with overlays, animations & sound effects to get the best average view duration which is best for faster success.",
       color: "#06B6D4", // Cyan

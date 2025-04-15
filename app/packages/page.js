@@ -10,7 +10,7 @@ import CaseStudies from "@/components/CaseStudies";
 import Solution from "@/components/Solution";
 import GrowthPath from "@/components/GrowthPath";
 import FAQ from "@/components/FAQ";
-import { faqData } from "@/data/faq-data";
+import { PackagesfaqData } from "@/data/faq-data";
 import WhatWeHaveDone from "@/components/WhatWeHaveDone";
 
 export default function Home() {
@@ -39,7 +39,7 @@ export default function Home() {
       <Solution />
       <GrowthPath />
       <Sale scrollToBookYourCall={scrollToBookYourCall} />
-      <FAQ faqData={faqData} />
+      <FAQ faqData={PackagesfaqData} />
       <WhatWeHaveDone />
       <div ref={bookCallRef}>
         <BookYourCall />

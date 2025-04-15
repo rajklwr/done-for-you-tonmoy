@@ -21,7 +21,7 @@ const GrowthPath = () => {
       icon: "images/button-b.png",
       title: " 6-Month Acceleration",
       //   pricing: "8-10 minutes = $85/video",
-      description: "Want to keep growing even after monetization?",
+      description: "Start with a Pre-Monetised & already warmed up channel 🚀",
       description1:
         "This program is for those who want to scale fast, switch niches freely, and work closely with us until their channel is profitable.",
       color: "#EC4899", // Pink
@@ -34,7 +34,7 @@ const GrowthPath = () => {
       icon: "images/button-c.png",
       title: "🏆 12-Month    Elite",
       //   pricing: "8-10 minutes = $100/video",
-      description: "Want to keep growing even after monetization?",
+      description: "Start with a Pre-Monetised & already warmed up channel 🚀",
       description1:
         "This program is for those who want to scale fast, switch niches freely, and work closely with us until their channel is profitable.",
       color: "#06B6D4", // Cyan
@@ -46,10 +46,6 @@ const GrowthPath = () => {
   ];
   return (
     <div className="min-h-screen w-full bg-[#121212] text-white px-2 sm:px-12 md:px-16 lg:px-20 sm:py-16">
-      {/* Header */}
-      {/* <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold text-center sm:mb-12">
-        3 WAYS TO WORK WITH US - CHOOSE YOUR GROWTH PATH
-      </h2> */}
       <Heading title="3 WAYS TO WORK WITH US - CHOOSE YOUR GROWTH PATH" />
 
       {/* Content */}
