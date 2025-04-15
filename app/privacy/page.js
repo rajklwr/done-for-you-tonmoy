@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 
 const Privacy = () => {
   const [currentYear, setCurrentYear] = useState("");
@@ -57,7 +57,7 @@ const Privacy = () => {
           </p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer //> */}
     </>
   );
 };

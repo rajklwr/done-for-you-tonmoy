@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 
 const TermsOfService = () => {
   const [currentYear, setCurrentYear] = useState("");
@@ -106,7 +106,7 @@ const TermsOfService = () => {
           </p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
