@@ -44,7 +44,7 @@ const PricingLanding = ({scrollToBookYourCall}) => {
           <div className="flex justify-center">
             <button
               className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-sm md:text-base lg:text-lg shadow-md transition-all duration-200 ease-in-out"
-              onClick={() => null}
+              onClick={scrollToBookYourCall}
             >
               Book Your Call
             </button>

@@ -2,7 +2,7 @@ import React from "react";
 import ServiceCard from "./ServiceCard";
 import UnderlineHeader from "./UnderlineHeader";
 
-const Sale = () => {
+const Sale = ({scrollToBookYourCall}) => {
   const servicesData = [
     {
       icon: "images/button-a.png",
@@ -61,7 +61,7 @@ const Sale = () => {
         <div className="flex justify-center">
           <button
             className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-sm md:text-base lg:text-lg shadow-md transition-all duration-200 ease-in-out"
-            onClick={() => null}
+            onClick={scrollToBookYourCall}
           >
             GROW THE PLANT
           </button>
