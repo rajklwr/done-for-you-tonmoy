@@ -10,7 +10,7 @@ const CaseStudies = () => {
   const scrollingImagesLandscape = [...caseStudyImagesLandscape, ...caseStudyImagesLandscape];
 
   return (
-    <section className="text-white py-4 sm:py-16 sm:px-6">
+    <section className="text-white py-4 sm:py-8 sm:px-6">
       <div className="text-center sm:mb-12">
         {/* Section Title */}
         <UnderlineHeader title={"CASE STUDIES"} />

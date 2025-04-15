@@ -7,10 +7,10 @@ const MonetizationSection = () => {
         </h2>
   
         {/* Content */}
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-12">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-0">
 
   
-          <div className="w-full lg:w-[40%] rounded-lg shadow-lg p-8 text-center transform hover:scale-105 transition-all duration-300">
+          <div className="w-full lg:w-[400px] rounded-lg shadow-lg p-8 text-center transform hover:scale-105 transition-all duration-300">
             <img
               src="/images/revenue-phone.png"
               alt="Revenue Phone"
@@ -37,13 +37,21 @@ const MonetizationSection = () => {
               </li>
             </ul>
 
-            <div className="bg-[#6abcff] mt-8 lg:mt-32 rounded-md  text-left px-4 " >
+            <div className="bg-[#6abcff] mt-8 lg:mt-16 rounded-md  text-left px-4 " >
             <h3 className="text-2xl sm:text-3xl font-bold mb-6 leading-xl ">FREE BONUS-</h3>
                 </div>
             <ul className="text-lg space-y-4">
               <li className="flex items-center text-left gap-3">
                 <img src="/images/icon-checked.png" alt="Checked Icon" className="w-6 h-6" />
                  A set number of free shorts/month at least 10 (Worth $150)
+              </li>
+              <li className="flex items-center text-left gap-3">
+                <img src="/images/icon-checked.png" alt="Checked Icon" className="w-6 h-6" />
+                 Each month 2 free videos (Worth $170)
+              </li>
+              <li className="flex items-center text-left gap-3">
+                <img src="/images/icon-checked.png" alt="Checked Icon" className="w-6 h-6" />
+                 Access to the exclusive Growth Secrets Community (Worth $500)
               </li>
             </ul>
           </div>

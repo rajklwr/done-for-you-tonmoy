@@ -1,12 +1,11 @@
-// components/YouTubeChannels.jsx
 import React from "react";
 
-const GrowChannel = ({scrollToBookYourCall}) => {
+const PricingLanding = ({scrollToBookYourCall}) => {
   return (
-    <div className=" flex flex-col mt-4 items-center justify-center p-4 sm:p-8">
-      <div className="max-w-7xl  w-full flex flex-col  justify-between items-center px-4 py-8 lg:py-16 lg:px-10 text-white gap-16 lg:gap-16">
+    <div className=" flex flex-col mt-12 items-center justify-center p-4 sm:p-4">
+      <div className="max-w-7xl w-full flex flex-col  justify-between items-center px-4 py-8 lg:py-16 lg:px-10 text-white gap-16 lg:gap-16">
         <div
-          className="flex-1 relative lg:flex-grow lg:max-w-[80%] xl:max-w-[80%]"
+          className="flex-1 relative lg:flex-grow lg:max-w-[60%] xl:max-w-[60%]"
           style={{
             transform: "translateY(20px)",
             opacity: 0,
@@ -15,7 +14,7 @@ const GrowChannel = ({scrollToBookYourCall}) => {
           }}
         >
           <img
-            src="/images/our-product.png" // Ensure the correct path to your image
+            src="/images/laptop-mobile.png" // Ensure the correct path to your image
             alt="What is Done-For-You Channels"
             className="object-contain w-full sm:w-[450px] scale-[1.2] lg:w-[650px] xl:w-[850px] h-auto mx-auto"
           />
@@ -45,7 +44,7 @@ const GrowChannel = ({scrollToBookYourCall}) => {
           <div className="flex justify-center">
             <button
               className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-sm md:text-base lg:text-lg shadow-md transition-all duration-200 ease-in-out"
-              onClick={scrollToBookYourCall}
+              onClick={() => null}
             >
               Book Your Call
             </button>
@@ -72,4 +71,4 @@ const GrowChannel = ({scrollToBookYourCall}) => {
   );
 };
 
-export default GrowChannel;
+export default PricingLanding;
