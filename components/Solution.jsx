@@ -1,14 +1,14 @@
 import Heading from "./Heading";
 const Solution = () => {
     return (
-      <div className="min-h-screen w-full bg-[#121212] text-white px-2 sm:px-12 md:px-16 lg:px-20 sm:py-16">
+      <div className=" w-full  text-white px-2 sm:px-12 md:px-16  lg:px-20 sm:py-16">
         <Heading title="WHY MOST CREATORS FAIL... AND OUR CLIENTS DON&apos;T" />
   
         {/* Content */}
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 sm:gap-0">
 
   
-          <div className="w-full lg:w-[400px] flex items-center justify-center  rounded-lg shadow-lg sm:p-8 text-center transform hover:scale-105 transition-all duration-300">
+          <div className="w-full lg:w-[400px] xl:w-[450px] flex items-center justify-center  rounded-lg shadow-lg sm:p-8 text-center transform hover:scale-105 transition-all duration-300">
             <img
               src="/images/tonmoy.png"
               alt="Revenue Phone"
@@ -16,7 +16,7 @@ const Solution = () => {
             />
           </div>
 
-          <div className="text-center max-w-md lg:max-w-lg">
+          <div className="text-center max-w-md lg:max-w-lg xl:max-w-2xl">
             <div className="bg-[#6abcff] rounded-md text-left px-4" >
             <h3 className="text-2xl sm:text-3xl font-bold mb-6 ">GIVE UP AFTER - 20 VIDEOS</h3>
                 </div>

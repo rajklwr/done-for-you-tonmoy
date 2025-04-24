@@ -1,14 +1,14 @@
 import Heading from "./Heading";
 const MonetizationSection = () => {
     return (
-      <div className="min-h-screen w-full bg-[#121212] text-white px-2 sm:px-12 md:px-16 lg:px-20 sm:py-16">
+      <div className=" w-full bg-[#121212] text-white px-2 sm:px-12 md:px-16 lg:px-20 sm:py-16">
         <Heading title="OVER 150+ CHANNELS MONETIZED. $10 MILLION+ REVENUE GENERATED FOR CLIENTS 💰" />
   
         {/* Content */}
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 sm:gap-0">
 
   
-          <div className="w-full lg:w-[400px] rounded-lg shadow-lg sm:p-8 text-center transform hover:scale-105 transition-all duration-300">
+          <div className="w-full  lg:w-[400px] xl:w-[450px] rounded-lg shadow-lg sm:p-8 text-center transform hover:scale-105 transition-all duration-300">
             <img
               src="/images/revenue-phone.png"
               alt="Revenue Phone"
@@ -16,7 +16,7 @@ const MonetizationSection = () => {
             />
           </div>
 
-          <div className="text-center max-w-md lg:max-w-lg">
+          <div className="text-center  max-w-md lg:max-w-lg xl:max-w-2xl">
             <div className="bg-[#6abcff] rounded-md text-left px-4" >
             <h3 className="text-2xl sm:text-3xl font-bold mb-6 ">WE DON&apos;T PROMISE--WE SHOW</h3>
                 </div>

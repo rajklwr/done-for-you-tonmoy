@@ -37,11 +37,11 @@ const ServiceCard = ({ icon, title, description, description1, pricing, extralin
       </div>
 
       {/* Button */}
-      <div className="relative z-10 flex justify-center mt-6">
+      {/* <div className="relative z-10 flex justify-center mt-6">
         <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-md transition-all duration-300 shadow-md hover:shadow-lg">
           Know More
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

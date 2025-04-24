@@ -89,14 +89,14 @@ const Sale = ({scrollToBookYourCall}) => {
           />
           Start with a fresh channel from scratch and monetise it within 2 months
         </li>
-        <li className="flex items-center text-left mb-2 gap-3">
+        {/* <li className="flex items-center text-left mb-2 gap-3">
           <img
             src="/images/icon-checked.png"
             alt="Checked Icon"
             className="w-8 h-8"
           />
           $500 for the 6 months of channel management
-        </li>
+        </li> */}
         <li className="flex items-start text-left mb-2 gap-3">
           <img
             src="/images/icon-checked.png"

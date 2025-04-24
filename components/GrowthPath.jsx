@@ -45,7 +45,7 @@ const GrowthPath = () => {
     },
   ];
   return (
-    <div className="min-h-screen w-full bg-[#121212] text-white px-2 sm:px-12 md:px-16 lg:px-20 sm:py-16">
+    <div className=" w-full bg-[#121212] text-white px-2 sm:px-12 md:px-16 lg:px-20 sm:py-16">
       <Heading title="3 WAYS TO WORK WITH US - CHOOSE YOUR GROWTH PATH" />
 
       {/* Content */}
