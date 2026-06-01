@@ -8,9 +8,10 @@ import BookYourCall from "@/components/BookYourCall";
 import FAQ from "@/components/FAQ";
 import { faqData } from "@/data/faq-data";
 import Header from "@/components/Header";
-import RevenueProofSection from "@/components/RevenueProofSection";
 import MonetizationSection from "@/components/MonetizationSection";
 import Footer from "@/components/Footer";
+import PricingLanding from "@/components/PricingLanding";
+import ReviewsSection from "@/components/ReviewsSection";
 
 export default function Home() {
   const bookCallRef = useRef(null);
@@ -64,9 +65,7 @@ export default function Home() {
 
       <YouTubeChannels />
 
-      <RevenueProofSection
-        scrollToBookYourCall={scrollToBookYourCall}
-      />
+      <PricingLanding scrollToBookYourCall={scrollToBookYourCall} />
 
       <MonetizationSection />
 
@@ -75,7 +74,7 @@ export default function Home() {
       <div ref={faqRef}>
         <FAQ faqData={faqData} />
       </div>
-
+      <ReviewsSection />
       <div ref={bookCallRef}>
         <BookYourCall />
       </div>

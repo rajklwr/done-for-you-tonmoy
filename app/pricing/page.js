@@ -12,6 +12,9 @@ import GrowthPath from "@/components/GrowthPath";
 import FAQ from "@/components/FAQ";
 import { PackagesfaqData } from "@/data/faq-data";
 import WhatWeHaveDone from "@/components/WhatWeHaveDone";
+import Footer from "@/components/Footer";
+import LandingScreen from "@/components/LandingScreen";
+import YoutubeChannels from "@/components/YouTubeChannels";
 
 export default function Home() {
   const bookCallRef = useRef(null);
@@ -33,17 +36,20 @@ export default function Home() {
       }}
     >
       <Header scrollToBookYourCall={scrollToBookYourCall} />
+      <LandingScreen scrollToBookYourCall={scrollToBookYourCall} />
+      <YoutubeChannels />
       <PricingLanding scrollToBookYourCall={scrollToBookYourCall} />
-      <CaseStudies />
+            <Sale scrollToBookYourCall={scrollToBookYourCall} />
+      {/* <CaseStudies /> */}
       <MonetizationSection />
       <Solution />
       <GrowthPath />
-      <Sale scrollToBookYourCall={scrollToBookYourCall} />
       <FAQ faqData={PackagesfaqData} />
       <WhatWeHaveDone />
       <div ref={bookCallRef}>
         <BookYourCall />
       </div>
+      <Footer />
     </main>
   );
 }
