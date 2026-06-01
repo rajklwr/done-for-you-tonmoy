@@ -3,7 +3,6 @@
 import React, { useRef } from "react";
 import LandingScreen from "@/components/LandingScreen";
 import YouTubeChannels from "@/components/YouTubeChannels";
-import YouTubeSection from "@/components/YouTubeSection";
 import BookYourCall from "@/components/BookYourCall";
 import FAQ from "@/components/FAQ";
 import { faqData } from "@/data/faq-data";
@@ -69,7 +68,7 @@ export default function Home() {
 
       <MonetizationSection />
 
-      <YouTubeSection />
+      {/* <YouTubeSection /> */}
 
       <div ref={faqRef}>
         <FAQ faqData={faqData} />

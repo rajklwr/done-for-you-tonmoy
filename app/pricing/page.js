@@ -6,23 +6,43 @@ import Sale from "@/components/Sale";
 import Header from "@/components/Header";
 import BookYourCall from "@/components/BookYourCall";
 import PricingLanding from "@/components/PricingLanding";
-import CaseStudies from "@/components/CaseStudies";
-import Solution from "@/components/Solution";
-import GrowthPath from "@/components/GrowthPath";
 import FAQ from "@/components/FAQ";
-import { PackagesfaqData } from "@/data/faq-data";
-import WhatWeHaveDone from "@/components/WhatWeHaveDone";
+import { faqData } from "@/data/faq-data";
 import Footer from "@/components/Footer";
 import LandingScreen from "@/components/LandingScreen";
 import YoutubeChannels from "@/components/YouTubeChannels";
+import BulkOrder from "@/components/BulkOrder";
+import ReviewsSection from "@/components/ReviewsSection";
+import UltimatePackage from "@/components/UltimatePackage";
 
 export default function Home() {
   const bookCallRef = useRef(null);
+  const faqRef = useRef(null);
+  const footerRef = useRef(null);
 
   const scrollToBookYourCall = () => {
-    if (bookCallRef.current) {
-      bookCallRef.current.scrollIntoView({ behavior: "smooth" });
-    }
+    bookCallRef.current?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
+  const scrollToFaq = () => {
+    faqRef.current?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
+  const scrollToFooter = () => {
+    footerRef.current?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
   return (
     <main
@@ -35,21 +55,29 @@ export default function Home() {
         padding: 10,
       }}
     >
-      <Header scrollToBookYourCall={scrollToBookYourCall} />
+      <Header
+        scrollToBookYourCall={scrollToBookYourCall}
+        scrollToFaq={scrollToFaq}
+        scrollToFooter={scrollToFooter}
+        scrollToTop={scrollToTop}
+      />
       <LandingScreen scrollToBookYourCall={scrollToBookYourCall} />
       <YoutubeChannels />
       <PricingLanding scrollToBookYourCall={scrollToBookYourCall} />
-            <Sale scrollToBookYourCall={scrollToBookYourCall} />
-      {/* <CaseStudies /> */}
+      <Sale scrollToBookYourCall={scrollToBookYourCall} />
       <MonetizationSection />
-      <Solution />
-      <GrowthPath />
-      <FAQ faqData={PackagesfaqData} />
-      <WhatWeHaveDone />
+      <BulkOrder/>
+      <UltimatePackage/>
+      <div ref={faqRef}>
+        <FAQ faqData={faqData} />
+      </div>
+      <ReviewsSection />
       <div ref={bookCallRef}>
         <BookYourCall />
       </div>
-      <Footer />
+      <div ref={footerRef}>
+        <Footer />
+      </div>
     </main>
   );
 }
