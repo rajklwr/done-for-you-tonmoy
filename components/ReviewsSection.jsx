@@ -6,14 +6,14 @@ import { FaStar } from "react-icons/fa";
 export default function ReviewsSection() {
   const handleReviews = () => {
     window.open(
-      "https://your-review-link.com",
+      "https://www.instagram.com/reel/DAgGbd7PQOB/",
       "_blank"
     );
   };
 
-  const handleReviews2 = (link) => {
+  const handleReviews2 = () => {
     window.open(
-      link,
+      'https://www.instagram.com/reel/DAdhVZuPV2T/',
       "_blank"
     );
   };
@@ -61,7 +61,7 @@ export default function ReviewsSection() {
             <div className="flex flex-col sm:flex-row gap-6 mt-10 w-full justify-center">
               
               <button
-                onClick={() => handleReviews('https://www.instagram.com/reel/DAgGbd7PQOB/?')}
+                onClick={handleReviews}
                 className="
                   min-w-[220px]
                   px-10
@@ -87,7 +87,7 @@ export default function ReviewsSection() {
               </button>
 
               <button
-                onClick={() => handleReviews2("https://www.instagram.com/reel/DAdhVZuPV2T/?")}
+                onClick={handleReviews2}
                 className="
                   min-w-[220px]
                   px-10
