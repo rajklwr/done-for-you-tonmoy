@@ -74,7 +74,7 @@ const Header = ({
               href="/ebooks"
               className="hover:text-blue-400 transition duration-300"
             >
-              Ebooks
+              E-Books
             </a>
 
             {/* About Us */}
@@ -94,14 +94,14 @@ const Header = ({
             </button>
 
             {/* Portfolio */}
-            <a
+            {/* <a
               href="https://drive.google.com/drive/folders/YOUR_DRIVE_LINK"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-400 transition duration-300"
             >
               Portfolio
-            </a>
+            </a> */}
 
             {/* CTA */}
             <button

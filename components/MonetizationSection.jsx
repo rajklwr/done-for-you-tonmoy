@@ -36,20 +36,20 @@ const MonetizationSection = () => {
             </ul>
 
             <div className="bg-[#6abcff] mt-8 lg:mt-16 rounded-md  text-left px-4 " >
-            <h3 className="text-2xl sm:text-3xl font-bold mb-6 leading-xl ">FREE BONUS-</h3>
+            <h3 className="text-2xl sm:text-3xl font-bold mb-6 leading-xl ">ADDITIONAL</h3>
                 </div>
             <ul className="text-lg space-y-4">
               <li className="flex items-center text-left gap-3">
                 <img src="/images/icon-checked.png" alt="Checked Icon" className="w-6 h-6" />
-                 A set number of free shorts/month at least 10 (Worth $150)
+                 Access To Our VIP Discord Community
               </li>
               <li className="flex items-center text-left gap-3">
                 <img src="/images/icon-checked.png" alt="Checked Icon" className="w-6 h-6" />
-                 Each month 2 free videos (Worth $170)
+                 Start from scratch or start with a Pre-Monetised Channel (Optional) 
               </li>
               <li className="flex items-center text-left gap-3">
                 <img src="/images/icon-checked.png" alt="Checked Icon" className="w-6 h-6" />
-                 Access to the exclusive Growth Secrets Community (Worth $500)
+                 Everything is transparant! Talk with the team members directly
               </li>
             </ul>
           </div>

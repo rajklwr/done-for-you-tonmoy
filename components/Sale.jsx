@@ -6,7 +6,7 @@ const Sale = ({ scrollToBookYourCall }) => {
     {
       icon: "images/button-a.png",
       title: "Basic",
-      pricing: "8-10 minutes = $70/video",
+      pricing: "8-10 minutes = $60/video",
       description:
         "Basic videos with original scripts, human voice-overs and videos with normal cuts and paste and some background music with it",
       color: "#FBBF24",

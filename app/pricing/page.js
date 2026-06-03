@@ -67,7 +67,7 @@ export default function Home() {
       <Sale scrollToBookYourCall={scrollToBookYourCall} />
       <MonetizationSection />
       <BulkOrder/>
-      <UltimatePackage/>
+      {/* <UltimatePackage/> */}
       <div ref={faqRef}>
         <FAQ faqData={faqData} />
       </div>
