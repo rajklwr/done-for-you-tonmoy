@@ -11,9 +11,9 @@ export default function ReviewsSection() {
     );
   };
 
-  const handleReviews2 = () => {
+  const handleReviews2 = (link) => {
     window.open(
-      "https://your-review2-link.com",
+      link,
       "_blank"
     );
   };
@@ -61,7 +61,7 @@ export default function ReviewsSection() {
             <div className="flex flex-col sm:flex-row gap-6 mt-10 w-full justify-center">
               
               <button
-                onClick={handleReviews}
+                onClick={() => handleReviews('https://www.instagram.com/reel/DAgGbd7PQOB/?')}
                 className="
                   min-w-[220px]
                   px-10
@@ -87,7 +87,7 @@ export default function ReviewsSection() {
               </button>
 
               <button
-                onClick={handleReviews2}
+                onClick={() => handleReviews2("https://www.instagram.com/reel/DAdhVZuPV2T/?")}
                 className="
                   min-w-[220px]
                   px-10

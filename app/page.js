@@ -68,8 +68,6 @@ export default function Home() {
 
       <MonetizationSection />
 
-      {/* <YouTubeSection /> */}
-
       <div ref={faqRef}>
         <FAQ faqData={faqData} />
       </div>
